@@ -1,106 +1,110 @@
-🚚 WASALI
+# 📱 WASALI Mobile
 
-Plateforme intelligente de livraison collaborative
+## Application mobile de livraison collaborative
 
-￼ 
-Livraison nationale et internationale de colis par les voyageurs 
-￼ ￼ ￼ ￼ ￼ 
+WASALI Mobile est l'application React Native de la plateforme WASALI.
 
-📖 À propos
+---
 
-WASALI est une plateforme intelligente de livraison collaborative permettant aux expéditeurs d’envoyer leurs colis via des voyageurs se déplaçant entre différentes villes ou pays.
-Le projet a été réalisé dans le cadre d’un Projet de Fin d’Études (PFE) en Licence Professionnelle MIAGE à la Faculté des Sciences et Techniques de l’Université de Nouakchott.
+## ✨ Fonctionnalités
 
-✨ Fonctionnalités
+### 👤 Authentification
+- Inscription et connexion
+- Authentification JWT
+- Gestion du profil utilisateur
 
-👤 Authentification
+### 📦 Gestion des colis
+- Création et publication des colis
+- Consultation des colis disponibles
+- Suivi du statut des livraisons
 
-Inscription et connexion
+### 🚗 Gestion des trajets
+- Publication des trajets
+- Consultation des trajets disponibles
+- Acceptation des demandes de livraison
 
-Authentification JWT
+### 📍 Suivi en temps réel
+- Partage GPS
+- Suivi du voyageur
 
-Gestion du profil
+### 🔔 Notifications
+- Confirmation de livraison
+- Vérification OTP
 
-📦 Gestion des colis
+---
 
-Création et publication des colis
+## 🛠️ Technologies
 
-Consultation des colis disponibles
+- React Native
+- TypeScript
+- Axios
+- Context API
+- JWT
+- GPS Tracking
+- REST API
 
-Suivi du statut des livraisons
+---
 
-🚗 Gestion des trajets
+## 🚀 Installation
 
-Publication des trajets
+### Prérequis
 
-Recherche de voyageurs
+- Node.js
+- npm
+- Android Studio
+- React Native CLI
 
-Acceptation ou refus des demandes
+### Installer les dépendances
 
-📍 Suivi GPS
+```bash
+npm install
+```
 
-Partage de position
+### Lancer Metro
 
-Suivi en temps réel
+```bash
+npx react-native start
+```
 
-Notifications
+### Lancer Android
 
-🔐 Livraison sécurisée
+```bash
+npx react-native run-android
+```
 
-Confirmation par OTP
+---
 
-Historique des livraisons
+## 📂 Structure du projet
 
-Évaluation des voyageurs
+```text
+mobile/
+├── src/
+│   ├── screens/
+│   ├── components/
+│   ├── services/
+│   ├── navigation/
+│   ├── context/
+│   ├── hooks/
+│   └── utils/
+├── android/
+├── ios/
+└── App.tsx
+```
 
-🏗 Architecture
+---
 
-Frontend Web → React
-Mobile → React Native
-Backend → Spring Boot
-Base de données → PostgreSQL
-Sécurité → Spring Security + JWT
-Temps réel → WebSocket STOMP
+## 👨‍🎓 Auteur
 
-🛠 Technologies
+**Moulaye Elhacen Selam**
 
-TechnologieUtilisationReact NativeApplication mobileSpring BootBackendPostgreSQLBase de donnéesJWTAuthentificationWebSocketTemps réelDockerDéploiement 
-
-📱 Captures d'écran
-
-Ajouter ici les captures d’écran de l’application :
-
-Connexion
-
-Tableau de bord
-
-Gestion des colis
-
-Suivi GPS
-
-🚀 Installation
-
-npm install npx react-native start npx react-native run-android 
-
-🎥 Démonstration vidéo
-
-▶️ Voir la démonstration :
-Vidéo de démonstration
-
-📄 Rapport PFE
-
-📘 Consulter le rapport :
-Rapport PDF
-
-📊 Présentation
-
-📑 Voir la présentation :
-Présentation PowerPoint
-
-👨‍💻 Auteur
-
-Moulaye Elhacen Selam
-Licence Professionnelle MIAGE
-Faculté des Sciences et Techniques
+Licence Professionnelle MIAGE  
+Faculté des Sciences et Techniques  
 Université de Nouakchott
-Année universitaire : 2025 – 2026
+
+---
+
+## 🎓 Projet PFE
+
+**WASALI – Système de livraison nationale et internationale de colis par les voyageurs**
+
+Année universitaire : **2025 – 2026**
