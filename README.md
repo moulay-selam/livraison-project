@@ -4,7 +4,7 @@
 
 WASALI Mobile est l'application React Native de la plateforme WASALI.
 <p align="center">
-  <img src="docs/Ji.jpeg" alt="WASALI" width="800">
+  <img src="docs/Ji.jpeg" alt="WASALI" width="500">
 </p>
 
 ---
