@@ -3,6 +3,9 @@
 ## Application mobile de livraison collaborative
 
 WASALI Mobile est l'application React Native de la plateforme WASALI.
+<p align="center">
+  <img src="docs/jj.jpeg" alt="WASALI" width="800">
+</p>
 
 ---
 
